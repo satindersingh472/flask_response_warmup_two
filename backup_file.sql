@@ -28,7 +28,7 @@ CREATE TABLE `pokemon` (
   `description` varchar(100) COLLATE utf8mb4_bin NOT NULL,
   `image_url` mediumtext COLLATE utf8mb4_bin DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -37,7 +37,7 @@ CREATE TABLE `pokemon` (
 
 LOCK TABLES `pokemon` WRITE;
 /*!40000 ALTER TABLE `pokemon` DISABLE KEYS */;
-INSERT INTO `pokemon` VALUES (1,'pika','I am pikachu','https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGlrYWNodXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+INSERT INTO `pokemon` VALUES (1,'pika','I am pikachu','https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGlrYWNodXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60'),(2,'frog','i am frog','https://images.unsplash.com/photo-1590955559496-50316bd28ff2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHBva2Vtb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'),(3,'dragon','i am a dragon','https://images.unsplash.com/photo-1640271443625-3276ed8f62b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBva2Vtb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'),(4,'dragon','i am a dragon','https://images.unsplash.com/photo-1640271443625-3276ed8f62b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHBva2Vtb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'),(5,'','',''),(6,'charizar','i am charizar','https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png');
 /*!40000 ALTER TABLE `pokemon` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -97,4 +97,4 @@ DELIMITER ;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-10-13 16:34:00
+-- Dump completed on 2022-10-15 10:11:14
